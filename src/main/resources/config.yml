@@ -1,0 +1,70 @@
+classes:
+  WARRIOR:
+    levels:
+      1:
+        name: "&6Level 1"
+        lore:
+          - "&6Unlock Berserk activated ability"
+          - "Level up by engaging in melee combat"
+      2:
+        name: "Level 2"
+        lore:
+          - "Coming Soon"
+  ARCHER:
+    levels:
+      1:
+        name: "Level 1"
+        lore:
+          - "Unlock Burst Shot activated ability"
+          - "Level up by shooting things"
+      2:
+        name: "Level 2"
+        lore:
+          -"Coming soon
+  ENGINEER:
+    levels:
+      1:
+        name: "Level 1"
+        lore:
+          - "Unlock turret"
+          - "Level up by mining"
+      2:
+        name: "Level 2"
+        lore:
+          - "Coming soon"
+  HEALER:
+    levels:
+      1:
+        name: "Level 1"
+        lore:
+          - "Unlock Healing Wave activated ability"
+          - "Level up by TBD"
+      2:
+        name: "Level 2"
+        lore:
+          - "Coming soon"
+  ASSASSIN:
+    levels:
+      1:
+        name: "Level 1"
+        lore:
+          - "Unlock Shrouded Cloak activated ability"
+          - "Level up by TBD"
+      2:
+        name: "Level 2"
+        lore:
+          - "Coming soon"
+xpreq: # cumulative xp requirement for each level
+  0: 0
+  1: 1
+  2: 5
+  3: 20
+  4: 100
+  5: 500
+  6: 1000
+  7: 2000
+  8: 4000
+  9: 6000
+  10: 10000
+  11: 15000
+  12: 20000

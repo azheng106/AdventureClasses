@@ -1,0 +1,17 @@
+name: AdventureClasses
+version: '${project.version}'
+main: me.aquaponics.adventureclasses.AdventureClasses
+api-version: '1.20'
+commands:
+  chooseclass:
+    description: Choose your class
+    usage: /<command>
+    aliases:
+      - class
+  progressiontree:
+    description: Open the progression tree of your class
+    usage: /<command>
+    aliases:
+      - tree
+      - progression
+      - prog
